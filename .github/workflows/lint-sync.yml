@@ -11,4 +11,4 @@ permissions:
 
 jobs:
   lint:
-    uses: charmbracelet/meta/.github/workflows/lint-sync.yml@main
+    uses: charmbracelet/meta/.github/workflows/lint-sync.yml@133acc3e877cc655a8fbbd49e81586d4f20f441d # main
