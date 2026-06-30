@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   dependabot-sync:
-    uses: charmbracelet/meta/.github/workflows/dependabot-sync.yml@main
+    uses: charmbracelet/meta/.github/workflows/dependabot-sync.yml@133acc3e877cc655a8fbbd49e81586d4f20f441d # main
     with:
       repo_name: ${{ github.event.repository.name }}
     secrets:
