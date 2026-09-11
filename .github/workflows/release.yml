@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   goreleaser:
-    uses: charmbracelet/meta/.github/workflows/goreleaser.yml@main
+    uses: charmbracelet/meta/.github/workflows/goreleaser.yml@74d6431aa8ede4afe0c2ecf0549554d001fb2d95 # main
     secrets:
       docker_username: ${{ secrets.DOCKERHUB_USERNAME }}
       docker_token: ${{ secrets.DOCKERHUB_TOKEN }}
